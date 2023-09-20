@@ -1,0 +1,95 @@
+/* box model
+display
+overflow
+*/
+
+/* box model
+border => thickness, style(solid, dotted, dashed), color
+padding
+margin
+*/
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box{
+    border: 2px solid red;
+    width: 400px;
+    padding: 10px 20px 30px 40px;
+    border-radius: 16px;
+    height: 360px;
+    margin: 50px auto;
+    overflow: scroll;
+    /* box-sizing: border-box; */
+    
+}
+
+/* padding/ margin 20px(top, bottom), auto(left and right) */
+/* padding/ margin top, right, bottom left */
+
+
+/* overflow 
+1. to hide the content which is going out
+2. to display the whole content by scrolling
+*/
+
+.card{
+    display: none;
+    width: 300px;
+    margin: auto;
+    border: 1px solid lightgray;
+    padding: 8px;
+    border-radius: 14px;
+    /* height: 340px; */
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: 1px solid lightgray;
+    padding: 14px 30px;
+    display: inline-block;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+
+/* display
+block => default(content is visible)
+inline => it will use only that much space, margin does not work, padding works
+inline-block => combines inline and block, uses the props of both inline and block, margin works
+none => element is hidden
+*/
+
+
+/* .demo{
+    background-color: black;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+} */
+
+
+
+
+/* box sizing */
+
+.login{
+    border: 2px solid red;
+    padding: 20px;
+    width: 400px;
+    margin: 60px auto;
+}
+input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 16px;
+    /* display: inline-block; */
+    box-sizing: border-box;
+}
+
+/* box sizing: it applies the padding, but also put everything insode the parent */

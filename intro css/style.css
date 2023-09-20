@@ -1,0 +1,51 @@
+
+
+/* typography
+box model, display,
+*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;900&display=swap');
+
+
+/* class name it always starts with a dot */
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    /* word-spacing: 18px; */
+    /* letter-spacing: 7px; */
+    text-decoration: underline rgb(255, 140, 0);
+    font-family: 'Inter', sans-serif;
+}
+.sub-title{
+    text-align: center;
+    font-size: 30px;
+    /* word-spacing: 18px; */
+    /* letter-spacing: 7px; */
+    text-decoration: underline blueviolet ;
+    color: rgb(61, 61, 61);
+    font-family: 'Inter', sans-serif;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+#desc{
+    color: rgb(63, 63, 63);
+}
+/* classes are best to apply css
+id is used in js target the element
+*/
+
+
+/* sunday: box model, display, overflow */
+/* flexbox, positions */
+/* grid system, presudo elements & pseudo classes */
+/* filters, styling elements,  */
+/* animations */
+/* responsive designes */
+/* major project - 2 */
+
+
+
+/* js */
