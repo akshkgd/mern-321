@@ -1,0 +1,136 @@
+/* usecases of positions */
+
+
+/* fixed */
+/* sticky */
+/* absolute */
+/* relative */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+.logo{
+    height: 30px;
+}
+.nav{
+    width: 1160px;
+    margin: auto;
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.btn{
+    background-color:white;
+    padding: 16px 30px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    
+}
+
+.card{
+    width: 250px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 8px;
+
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.container{
+    margin-top: 40px;;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.food-card{
+    width: 300px;
+    margin: 30px auto;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 14px;
+}
+.title{
+    margin: 6px 0;
+}
+.desc{
+    margin: 4px 0;
+    font-size: 15px;
+    color: rgb(55, 55, 55);
+}
+.card-header{
+    position: relative;
+}
+.best{
+    position: absolute;
+    background-color: rgb(255, 242, 219);
+    color: rgb(65, 42, 0);
+    font-size: 14px;
+    padding: 2px 12px;
+    border-radius: 12px;
+    bottom:0;
+    right: 0;
+    margin: 10px;
+}
+
+.ratings{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 2px 12px;
+    border-radius: 12px;
+    bottom:0;
+    margin: 10px;
+}
+
+.bg{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    scale: 1.2;
+}
+.shade{
+    background-color: rgba(0, 0, 0, 0.439);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    /* background-image: linear-gradient(190deg, rgba(255, 0, 0, 0.469), rgba(0, 0, 255, 0.46), rgba(255, 166, 0, 0.459)); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.content{
+    width: 1000px;
+    text-align: center;
+    position: absolute;
+    color: white;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg-title{
+    font-weight: 900;
+    font-size: 50px;
+}
+.bg-subtitle{
+    font-size: 24px;
+    font-weight: normal;
+}
