@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #1b1b1b;
+}
+.navbar{
+    width: 990px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+.logo{
+    height: 60px;
+}
+.search{
+    background-color: rgba(128, 128, 128, 0.366);
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    width: 300px;
+    box-sizing: border-box;
+}
+.search:focus{
+    outline: none;
+    border: none;
+    background-color: rgba(148, 148, 148, 0.279);
+}
+.search-btn{
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.514);
+    cursor: pointer;
+    margin-left: -28px;
+}
+.search-flex{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 60px;
+}
+#notFound{
+    text-align: center;
+    margin-top: 160px;
+    color: rgba(255, 255, 255, 0.833);
+}
+.nf-title{
+    margin: 0;
+}
+.nf-desc{
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.437);
+}
+.movieContainer{
+    width: 800px;
+    margin: 100px auto;
+    color: rgba(255, 255, 255, 0.909);
+    display: flex;
+}
+.title{
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+.poster{
+    border-radius: 12px;
+}
+.d-none{
+    display: none !important;
+}
