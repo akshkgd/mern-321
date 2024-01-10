@@ -1,0 +1,10 @@
+.border{
+    border-radius: 12px;
+}
+.btn{
+    border-radius: 12px !important;
+}
+.intro{
+    width: 700px;
+    margin: 60px auto;
+}

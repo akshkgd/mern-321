@@ -1,0 +1,26 @@
+$theme-colors: (
+  "primary":    rgb(87, 0, 169),
+  "secondary":  gray,
+  "success":    rgb(0, 196, 0),
+  "warning":    rgb(255, 164, 6),
+  "danger":     rgb(255, 23, 23),
+  "light":      white,
+  "dark":       black,
+);
+$card-border-radius: 14px;
+$input-border-radius: 12px;
+$btn-border-radius:  12px;
+$input-focus-border-color:   rgb(0, 128, 255);
+
+.round{
+    border-radius: 14px !important; 
+}
+.user{
+    height: 50px;
+    border-radius: 50%;
+}
+.profile{
+    gap: 6px;
+}
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
+
