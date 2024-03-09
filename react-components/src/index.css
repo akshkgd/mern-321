@@ -1,0 +1,134 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 16px 30px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  border:1px solid #535bf2;
+  color: #535bf2;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card{
+  transition: .3s;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 14px;
+  width: 260px;
+}
+.card:hover{
+  cursor: pointer;
+  transform: rotate(3deg);
+  box-shadow: 4px 6px 8px 6px #eee;
+  border: 1px solid white;
+}
+.card-img{
+  width: 100%;
+  border-radius: 14px;
+}
+.title{
+  margin: 6px 0;
+}
+.price{
+  margin: 6px 0;
+}
+.desc{
+  font-size: 14px;
+  margin: 0;
+}
+
+@media(min-width:990px){
+  .container{
+    width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+    margin: 60px auto;
+  }
+}
+@media(max-width: 990px){
+  .container{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+    margin: 60px auto;
+  }
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.veg{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: green;
+}
+.nonveg{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: rgb(128, 0, 0);
+}
+.card-header{
+  position: relative;
+}
+.try{
+  margin: 10px;
+  padding: 3px 12px;
+  border-radius: 18px;
+  background-color: rgb(245, 255, 245);
+  color: green;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+}
+.none{
+  display: none;
+}
+.center{
+  text-align: center;
+}
